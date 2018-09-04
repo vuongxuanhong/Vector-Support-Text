@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VectorSupportEditText">
+        <attr name="supportDrawableStart" format="reference"/>
+        <attr name="supportDrawableEnd" format="reference"/>
+        <attr name="supportDrawableTop" format="reference"/>
+        <attr name="supportDrawableBottom" format="reference"/>
+        <attr name="supportDrawableStartSquareSize" format="dimension"/>
+        <attr name="supportDrawableEndSquareSize" format="dimension"/>
+        <attr name="supportDrawableTopSquareSize" format="dimension"/>
+        <attr name="supportDrawableBottomSquareSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="VectorSupportTextView">
+        <attr name="drawableTintCompat" format="color"/>
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="drawableStartSquareSize" format="dimension"/>
+        <attr name="drawableEndSquareSize" format="dimension"/>
+        <attr name="drawableTopSquareSize" format="dimension"/>
+        <attr name="drawableBottomSquareSize" format="dimension"/>
+    </declare-styleable>
+</resources>
