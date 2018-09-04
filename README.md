@@ -11,7 +11,7 @@ Screenshot:
 
 Add it in your root build.gradle at the end of repositories
 
-```code
+```gradle
 allprojects {
 		repositories {
 			...
@@ -22,7 +22,7 @@ allprojects {
 
 <b>Step 2. Add the dependency</b>
 
-```java
+```gradle
 	dependencies {
 	        implementation 'com.github.vuongxuanhong:Vector-Support-Text:1.0'
 	}
